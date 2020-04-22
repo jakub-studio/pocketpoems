@@ -1,37 +1,35 @@
 {
 	"name": "Pocket Poems",
 	"short_name": "Pocket Poems",
-	"start_url": "/pwa",
-	"display": "standalone",
-	"background_color": "#fff",
-	"description": "A simply readable Hacker News app.",
+	"start_url": "/pwa.html",
+	"display": "fullscren",
+	"theme_color": "#141e30",
+	"background_color": "#141e30",
+	"description": "App (PWA) designed to showcase poems by Sue Dymoke.",
+	"categories": ["education"],
 	"icons": [{
-		"src": "images/touch/homescreen48.png",
-		"sizes": "48x48",
+		"src": "icons/icon-128.png",
+		"sizes": "128x128",
 		"type": "image/png"
 	}, {
-		"src": "images/touch/homescreen72.png",
-		"sizes": "72x72",
+		"src": "icons/icon-152.png",
+		"sizes": "152x152",
 		"type": "image/png"
 	}, {
-		"src": "images/touch/homescreen96.png",
-		"sizes": "96x96",
+		"src": "icons/icon-167.png",
+		"sizes": "167x167",
 		"type": "image/png"
 	}, {
-		"src": "images/touch/homescreen144.png",
-		"sizes": "144x144",
+		"src": "icons/icon-180.png",
+		"sizes": "180x180",
 		"type": "image/png"
 	}, {
-		"src": "images/touch/homescreen168.png",
-		"sizes": "168x168",
+		"src": "icons/icon-256.png",
+		"sizes": "256x256",
 		"type": "image/png"
 	}, {
-		"src": "images/touch/homescreen192.png",
-		"sizes": "192x192",
+		"src": "icons/icon-512.png",
+		"sizes": "512x512",
 		"type": "image/png"
-	}],
-	"related_applications": [{
-		"platform": "play",
-		"url": "https://play.google.com/store/apps/details?id=cheeaun.hackerweb"
 	}]
 }
