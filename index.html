@@ -104,8 +104,11 @@
 			deferredPrompt = e;
 			// Update UI notify the user they can install the PWA
 			const btn = document.getElementById("install");
-
 			btn.setAttribute("disabled", false);
+			btn.className.replace("inactive", "active");
+			btn.innerText = "Install";
+
+			btn.onClick = e;
 		});
 	</script>
 </head>
@@ -123,7 +126,7 @@
 				This is a PWA only designed for mobile. It is not desktop compatabile. Please visit this website on a mobile phone to install.
 			</div>
 		</div>
-		<div class=" mobile">
+		<div class="mobile">
 				<div id="install" disabled class="button inactive">
 					LOADING...
 				</div>
