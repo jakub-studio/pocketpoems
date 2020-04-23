@@ -1,7 +1,7 @@
 {
 	"name": "Pocket Poems",
 	"short_name": "Pocket Poems",
-	"start_url": "/pwa.html",
+	"start_url": "/pocketpoems/pwa.html",
 	"display": "fullscreen",
 	"theme_color": "#141e30",
 	"background_color": "#141e30",
