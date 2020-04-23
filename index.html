@@ -48,18 +48,27 @@
 			font-size: 0.75em
 		}
 
+		.noselect {
+			-webkit-touch-callout: none;
+			-webkit-user-select: none;
+			-khtml-user-select: none;
+			-moz-user-select: none;
+			-ms-user-select: none;
+			user-select: none;
+			-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+		}
+
 		.button {
 			background-color: black;
-    height: 3em;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 1em;
-    font-weight: 800;
-    text-transform: uppercase;
-    cursor: pointer;
-	padding: 5px 30px;
-	user-select: none;
+			height: 3em;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			margin-top: 1em;
+			font-weight: 800;
+			text-transform: uppercase;
+			cursor: pointer;
+			padding: 5px 30px;
 		}
 
 		.button.inactive {
@@ -126,7 +135,7 @@
 			</div>
 		</div>
 		<div class="mobile">
-				<div id="install" disabled class="button inactive">
+				<div id="install" disabled class="button inactive noselect">
 					LOADING...
 				</div>
 			</div>
