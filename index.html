@@ -116,7 +116,9 @@
 			btn.className.replace("inactive", "active");
 			btn.innerText = "Install";
 
-			btn.onclick = e.prompt;
+			btn.addEventListener("click", function () {
+				e.prompt();
+			})
 		});
 	</script>
 </head>
