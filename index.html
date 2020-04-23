@@ -117,7 +117,7 @@
 			btn.innerText = "Install";
 
 			btn.addEventListener("click", function () {
-				e.prompt();
+				e.prompt.call(e)
 			})
 		});
 	</script>
