@@ -34334,6 +34334,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _styles_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_styles_css__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
 /* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(classnames__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var react_spring__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-spring */ "./node_modules/react-spring/web.js");
+
 
 
 
@@ -34344,36 +34346,39 @@ function buildImageURL(image) {
 }
 
 function getCoverImages(poems) {}
-
-function ImageController(props) {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: _constants__WEBPACK_IMPORTED_MODULE_1__["default"].GLOBAL_CLASSNAMES.COVER
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    style: {
-      backgroundImage: `url(${buildImageURL(props.currentImage)})`
-    },
-    className: classnames__WEBPACK_IMPORTED_MODULE_3___default()(_styles_css__WEBPACK_IMPORTED_MODULE_2___default.a.img, _constants__WEBPACK_IMPORTED_MODULE_1__["default"].GLOBAL_CLASSNAMES.COVER)
-  }));
-}
-/* export default function ImageController(props: ImageControllerProps) {
-	const transitions = useTransition(
-		props.currentImage,
-		null,
-		{
-			from: { opacity: 0 },
-			enter: { opacity: 1 },
-			leave: { opacity: 0 },
-		}
-	)
+/* export default function ImageController (props: ImageControllerProps) {
 	return <div className={Constants.GLOBAL_CLASSNAMES.COVER}>
-		{transitions.map(({ item, props, key }) => (
-			<animated.div
-				key={key}
-				className={classnames(styles.img, Constants.GLOBAL_CLASSNAMES.COVER)}
-				style={{ ...props, backgroundImage: `url(${Constants.BASE_URL}/${Constants.PWA_RES_NAME}/img/${item}.jpg)` }}
-		/>))}
+		<div style={{backgroundImage: `url(${buildImageURL(props.currentImage)})`}} className={classnames(styles.img, Constants.GLOBAL_CLASSNAMES.COVER)}/>
 	</div>
 } */
+
+
+function ImageController(props) {
+  const transitions = Object(react_spring__WEBPACK_IMPORTED_MODULE_4__["useTransition"])(props.currentImage, null, {
+    from: {
+      opacity: 0
+    },
+    enter: {
+      opacity: 1
+    },
+    leave: {
+      opacity: 0
+    }
+  });
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _constants__WEBPACK_IMPORTED_MODULE_1__["default"].GLOBAL_CLASSNAMES.COVER
+  }, transitions.map(({
+    item,
+    props,
+    key
+  }) => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_spring__WEBPACK_IMPORTED_MODULE_4__["animated"].div, {
+    key: key,
+    className: classnames__WEBPACK_IMPORTED_MODULE_3___default()(_styles_css__WEBPACK_IMPORTED_MODULE_2___default.a.img, _constants__WEBPACK_IMPORTED_MODULE_1__["default"].GLOBAL_CLASSNAMES.COVER),
+    style: { ...props,
+      backgroundImage: `url(${_constants__WEBPACK_IMPORTED_MODULE_1__["default"].BASE_URL}/${_constants__WEBPACK_IMPORTED_MODULE_1__["default"].PWA_RES_NAME}/img/${item}.jpg)`
+    }
+  })));
+}
 
 /***/ }),
 
