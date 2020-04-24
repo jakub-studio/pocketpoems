@@ -23,7 +23,8 @@ const fileCache = [
 	"img/dollies-2.jpg",
 	"img/marbles-1.jpg",
 	"img/ocean-1.jpg",
-	"img/teddy-1.jpg"
+	"img/teddy-1.jpg",
+	"app.js"
 ].map(file => `/${APP_NAME}/${PREFIX}/${file}`);
 
 self.addEventListener("install", event => {
