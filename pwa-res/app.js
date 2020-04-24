@@ -387,7 +387,7 @@ module.exports = exports;
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, ".poem_view_1Kd1M {\r\n\tz-index: 10;\r\n}\r\n\r\n.poemViewInner_pT9hg {\r\n\tpadding: 15px;\r\n}\r\n\r\n.returnContainer_HMvkZ { \r\n\tdisplay: flex;\r\n    align-items: center;\r\n    height: 12px;\r\n}\r\n\r\n.returnLabel_OVg9d {\r\n\tfont: 400 10px/10px acumin-pro;\r\n\tcolor: white;\r\n\ttext-transform: uppercase;\r\n\tmargin-left: 10px;\r\n}\r\n\r\n.header_2ttzB {\r\n\tdisplay: flex;\r\n\tflex-direction: row;\r\n\tjustify-content: space-between;\r\n\talign-items: center;\r\n}\r\n\r\n.titleContainer_1pVEm {\r\n\tdisplay: flex;\r\n\tflex-direction: column;\r\n\talign-items: center;\r\n}\r\n\r\n.title_2htF2 {\r\n\tfont: bold 14px/18px baskerville-display-pt;\r\n\tcolor: white;\r\n\ttext-transform: uppercase\r\n}\r\n\r\n.note_1ZNkG {\r\n\tfont-family: baskerville-display-pt;\r\n\tfont-size: 10px;\r\n\tfont-weight: 500;\r\n\tfont-style: italic;\r\n\tcolor: rgba(255,255,255,0.72)\r\n}", ""]);
+exports.push([module.i, ".poem_view_1Kd1M {\r\n\tz-index: 10;\r\n}\r\n\r\n.poemViewInner_pT9hg {\r\n\tpadding: 15px;\r\n}\r\n\r\n.returnContainer_HMvkZ { \r\n\tdisplay: flex;\r\n    align-items: center;\r\n    height: 12px;\r\n}\r\n\r\n.returnLabel_OVg9d {\r\n\tfont: 400 10px/10px acumin-pro;\r\n\tcolor: white;\r\n\ttext-transform: uppercase;\r\n\tmargin-left: 10px;\r\n}\r\n\r\n.header_2ttzB {\r\n\tdisplay: flex;\r\n\tflex-direction: row;\r\n\tjustify-content: space-between;\r\n\talign-items: center;\r\n}\r\n\r\n.titleContainer_1pVEm {\r\n\tdisplay: flex;\r\n\tflex-direction: column;\r\n\talign-items: center;\r\n}\r\n\r\n.title_2htF2 {\r\n\tfont: bold 14px/18px baskerville-display-pt;\r\n\tcolor: white;\r\n\ttext-transform: uppercase\r\n}\r\n\r\n.note_1ZNkG {\r\n\tfont-family: acumin-pro;\r\n\tfont-size: 10px;\r\n\tfont-weight: 500;\r\n\tfont-style: italic;\r\n\tcolor: rgba(255,255,255,0.72)\r\n}\r\n\r\n.poem_1ffUN {\r\n\ttext-align: center;\r\n    padding-right: 15px;\r\n    font-family: acumin-pro;\r\n    margin-top: 20px;\r\n}", ""]);
 // Exports
 exports.locals = {
 	"poem_view": "poem_view_1Kd1M",
@@ -397,7 +397,8 @@ exports.locals = {
 	"header": "header_2ttzB",
 	"titleContainer": "titleContainer_1pVEm",
 	"title": "title_2htF2",
-	"note": "note_1ZNkG"
+	"note": "note_1ZNkG",
+	"poem": "poem_1ffUN"
 };
 module.exports = exports;
 
@@ -34275,6 +34276,8 @@ class HomePageScroller extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Comp
     }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_DarkeningOverlaysManager__WEBPACK_IMPORTED_MODULE_3__["default"], {
       state: this.state.readingPoem ? "POEM_VIEW" : "DEFAULT"
     }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_ImageController__WEBPACK_IMPORTED_MODULE_2__["default"], {
+      isReadingPoem: this.state.readingPoem,
+      poems: this.props.poems,
       currentImage: this.state.currentPoem.coverImage
     }));
   }
@@ -34340,6 +34343,8 @@ function buildImageURL(image) {
   return `${_constants__WEBPACK_IMPORTED_MODULE_1__["default"].BASE_URL}/${_constants__WEBPACK_IMPORTED_MODULE_1__["default"].PWA_RES_NAME}/img/${image}.jpg`;
 }
 
+function getCoverImages(poems) {}
+
 function ImageController(props) {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: _constants__WEBPACK_IMPORTED_MODULE_1__["default"].GLOBAL_CLASSNAMES.COVER
@@ -34350,6 +34355,25 @@ function ImageController(props) {
     className: classnames__WEBPACK_IMPORTED_MODULE_3___default()(_styles_css__WEBPACK_IMPORTED_MODULE_2___default.a.img, _constants__WEBPACK_IMPORTED_MODULE_1__["default"].GLOBAL_CLASSNAMES.COVER)
   }));
 }
+/* export default function ImageController(props: ImageControllerProps) {
+	const transitions = useTransition(
+		props.currentImage,
+		null,
+		{
+			from: { opacity: 0 },
+			enter: { opacity: 1 },
+			leave: { opacity: 0 },
+		}
+	)
+	return <div className={Constants.GLOBAL_CLASSNAMES.COVER}>
+		{transitions.map(({ item, props, key }) => (
+			<animated.div
+				key={key}
+				className={classnames(styles.img, Constants.GLOBAL_CLASSNAMES.COVER)}
+				style={{ ...props, backgroundImage: `url(${Constants.BASE_URL}/${Constants.PWA_RES_NAME}/img/${item}.jpg)` }}
+		/>))}
+	</div>
+} */
 
 /***/ }),
 
@@ -34530,7 +34554,7 @@ __webpack_require__.r(__webpack_exports__);
 
 function TitleDisplay(props) {
   const spring = Object(react_spring__WEBPACK_IMPORTED_MODULE_4__["useSpring"])({
-    transform: `translate(${props.show ? "0" : "-205"}px, 0px)`
+    transform: `translate(${props.show ? "0" : "-215"}px, 0px)`
   });
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_spring__WEBPACK_IMPORTED_MODULE_4__["animated"].div, {
     style: spring,
@@ -34637,9 +34661,13 @@ function PoemView(props) {
     poem: props.poem
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     style: {
-      marginLeft: "77px"
+      marginLeft: "69px"
     }
-  }))));
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _styles_css__WEBPACK_IMPORTED_MODULE_5___default.a.poem
+  }, props.poem.content.map((line, index) => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, {
+    key: index
+  }, line, " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null))))));
 }
 
 function ReturnToPoems(props) {

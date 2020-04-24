@@ -3,7 +3,7 @@
 	"short_name": "PocketPoems",
 	"start_url": "/pocketpoems/pwa.html",
 	"scope": "/pocketpoems/pwa.html",
-	"display": "fullscreen",
+	"display": "minimal-ui",
 	"theme_color": "#141e30",
 	"background_color": "#141e30",
 	"description": "App (PWA) designed to showcase poems by Sue Dymoke.",
