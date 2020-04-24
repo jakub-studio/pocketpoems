@@ -105,14 +105,16 @@
 			return check;
 		};
 
+		const iOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+
 		const isMobile = mobileCheck();
 
 		const style = document.createElement("style");
 		style.innerHTML =
-			`.desktop { display: ${isMobile ? "none" : "block"} } .mobile { display: ${isMobile ? "block" : "none"} }`
+			`.desktop { display: ${isMobile ? "none" : "block"} } .mobile { display: ${isMobile && !iOS ? "block" : "none"} } .ios { display: ${iOS ? "block" : "none"} }`
 		document.head.append(style);
 
-		c.log("Desktop / Mobile CSS created")
+		c.log("Variable CSS created")
 
 		if ('serviceWorker' in navigator) {
 			window.addEventListener('load', () => {
@@ -156,10 +158,15 @@
 				This is a PWA only designed for mobile. It is not desktop compatabile. Please visit this website on a mobile phone to install.
 			</div>
 		</div>
-		<div class=" mobile">
+		<div class="mobile">
 				<div id="install" disabled class="button inactive">
 					LOADING...
 				</div>
+			</div>
+		</div>
+		<div class="ios">
+			<div class="text" style="max-width: 90%; margin-top: 1em;"">
+				It seems you are on iOS, to install this application, click the share button located on the bottom toolbar and press the "Add to Homescreen" button.
 			</div>
 		</div>
 </body>
