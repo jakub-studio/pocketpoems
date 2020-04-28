@@ -358,9 +358,20 @@ module.exports = exports;
   !*** ./node_modules/css-loader/dist/cjs.js??ref--5-1!./src/Components/PoemScroller/styles.css ***!
   \************************************************************************************************/
 /*! no static exports found */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-throw new Error("Module build failed (from ./node_modules/css-loader/dist/cjs.js):\nCssSyntaxError\n\n(18:1) Unexpected }\n\n \u001b[90m 16 | \u001b[39m    margin-bottom\u001b[33m:\u001b[39m 28px\u001b[33m;\u001b[39m\n \u001b[90m 17 | \u001b[39m\u001b[33m}\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 18 | \u001b[39m\u001b[33m}\u001b[39m\n \u001b[90m    | \u001b[39m\u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n");
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+exports = ___CSS_LOADER_API_IMPORT___(false);
+// Module
+exports.push([module.i, ".poem_scroller_tlrRF {\r\n\theight: 175px;\r\n\twidth: 100%;\r\n\toverflow: scroll;\r\n\tscroll-snap-type: y mandatory;\r\n\ttext-shadow: 0px 0px 6px #000000E0;\r\n\tfont-family: acumin-pro;\r\n\tfont-weight: bold;\r\n\tfont-size: 24px;\r\n\tline-height: 0px;\r\n}\r\n\r\n.line_3Hc36 {\r\n    padding-top: 6px;\r\n    scroll-snap-align: start;\r\n    margin-bottom: 28px;\r\n}", ""]);
+// Exports
+exports.locals = {
+	"poem_scroller": "poem_scroller_tlrRF",
+	"line": "line_3Hc36"
+};
+module.exports = exports;
+
 
 /***/ }),
 
