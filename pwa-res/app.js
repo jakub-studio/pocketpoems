@@ -353,6 +353,17 @@ module.exports = exports;
 
 /***/ }),
 
+/***/ "./node_modules/css-loader/dist/cjs.js?!./src/Components/PoemScroller/styles.css":
+/*!************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-1!./src/Components/PoemScroller/styles.css ***!
+  \************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+throw new Error("Module build failed (from ./node_modules/css-loader/dist/cjs.js):\nCssSyntaxError\n\n(18:1) Unexpected }\n\n \u001b[90m 16 | \u001b[39m    margin-bottom\u001b[33m:\u001b[39m 28px\u001b[33m;\u001b[39m\n \u001b[90m 17 | \u001b[39m\u001b[33m}\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 18 | \u001b[39m\u001b[33m}\u001b[39m\n \u001b[90m    | \u001b[39m\u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n");
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/dist/cjs.js?!./src/Components/PoemTitleDisplay/styles.css":
 /*!****************************************************************************************************!*\
   !*** ./node_modules/css-loader/dist/cjs.js??ref--5-1!./src/Components/PoemTitleDisplay/styles.css ***!
@@ -389,10 +400,9 @@ module.exports = exports;
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, ".poem_view_1Kd1M {\r\n\tz-index: 10;\r\n}\r\n\r\n.poemViewInner_pT9hg {\r\n\tpadding: 15px;\r\n}\r\n\r\n.returnContainer_HMvkZ { \r\n\tdisplay: flex;\r\n    align-items: center;\r\n    height: 12px;\r\n}\r\n\r\n.returnLabel_OVg9d {\r\n\tfont: 400 10px/10px acumin-pro;\r\n\tcolor: white;\r\n\ttext-transform: uppercase;\r\n\tmargin-left: 10px;\r\n}\r\n\r\n.header_2ttzB {\r\n\tdisplay: flex;\r\n\tflex-direction: row;\r\n\tjustify-content: space-between;\r\n\talign-items: center;\r\n}\r\n\r\n.titleContainer_1pVEm {\r\n\tdisplay: flex;\r\n\tflex-direction: column;\r\n\talign-items: center;\r\n}\r\n\r\n.title_2htF2 {\r\n\tfont: bold 14px/18px baskerville-display-pt;\r\n\tcolor: white;\r\n\ttext-transform: uppercase\r\n}\r\n\r\n.note_1ZNkG {\r\n\tfont-family: acumin-pro;\r\n\tfont-size: 10px;\r\n\tfont-weight: 500;\r\n\tfont-style: italic;\r\n\tcolor: rgba(255,255,255,0.72)\r\n}\r\n\r\n.poem_1ffUN {\r\n\ttext-align: center;\r\n    padding-right: 15px;\r\n    font-family: acumin-pro;\r\n    margin-top: 20px;\r\n}", ""]);
+exports.push([module.i, ".poemViewInner_pT9hg {\r\n\tpadding: 15px;\r\n\tdisplay: flex;\r\n    flex-direction: column;\r\n    justify-content: space-between;\r\n}\r\n\r\n.returnContainer_HMvkZ { \r\n\tdisplay: flex;\r\n    align-items: center;\r\n\theight: 12px;\r\n\tpadding: 3px 0px;\r\n}\r\n\r\n.returnLabel_OVg9d {\r\n\tfont: 400 10px/10px acumin-pro;\r\n\tcolor: white;\r\n\ttext-transform: uppercase;\r\n\tmargin-left: 10px;\r\n}\r\n\r\n.header_2ttzB {\r\n\tdisplay: flex;\r\n\tflex-direction: row;\r\n\tjustify-content: space-between;\r\n\talign-items: center;\r\n}\r\n\r\n.titleContainer_1pVEm {\r\n\tdisplay: flex;\r\n\tflex-direction: column;\r\n\talign-items: center;\r\n}\r\n\r\n.title_2htF2 {\r\n\tfont: bold 14px/18px baskerville-display-pt;\r\n\tcolor: white;\r\n\ttext-transform: uppercase\r\n}\r\n\r\n.note_1ZNkG {\r\n\tfont-family: acumin-pro;\r\n\tfont-size: 10px;\r\n\tfont-weight: 500;\r\n\tfont-style: italic;\r\n\tcolor: rgba(255,255,255,0.72)\r\n}\r\n\r\n.poem_1ffUN {\r\n\ttext-align: center;\r\n    padding-right: 15px;\r\n    font-family: acumin-pro;\r\n\theight: 100%;\r\n\tdisplay: flex;\r\n\tjustify-content: center;\r\n\talign-items: center;\r\n}", ""]);
 // Exports
 exports.locals = {
-	"poem_view": "poem_view_1Kd1M",
 	"poemViewInner": "poemViewInner_pT9hg",
 	"returnContainer": "returnContainer_HMvkZ",
 	"returnLabel": "returnLabel_OVg9d",
@@ -31868,6 +31878,64 @@ module.exports = exported;
 
 /***/ }),
 
+/***/ "./src/Components/PoemScroller/index.tsx":
+/*!***********************************************!*\
+  !*** ./src/Components/PoemScroller/index.tsx ***!
+  \***********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return PoemScroller; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _styles_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./styles.css */ "./src/Components/PoemScroller/styles.css");
+/* harmony import */ var _styles_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_styles_css__WEBPACK_IMPORTED_MODULE_1__);
+
+
+function PoemScroller(props) {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _styles_css__WEBPACK_IMPORTED_MODULE_1___default.a.poem_scroller
+  }, props.poem.content.map((line, index) => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _styles_css__WEBPACK_IMPORTED_MODULE_1___default.a.line,
+    key: index
+  }, line)));
+}
+
+/***/ }),
+
+/***/ "./src/Components/PoemScroller/styles.css":
+/*!************************************************!*\
+  !*** ./src/Components/PoemScroller/styles.css ***!
+  \************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var api = __webpack_require__(/*! ../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+            var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--5-1!./styles.css */ "./node_modules/css-loader/dist/cjs.js?!./src/Components/PoemScroller/styles.css");
+
+            content = content.__esModule ? content.default : content;
+
+            if (typeof content === 'string') {
+              content = [[module.i, content, '']];
+            }
+
+var options = {"injectType":"singletonStyleTag"};
+
+options.insert = "head";
+options.singleton = true;
+
+var update = api(content, options);
+
+var exported = content.locals ? content.locals : {};
+
+
+
+module.exports = exported;
+
+/***/ }),
+
 /***/ "./src/Components/PoemTitleDisplay/index.tsx":
 /*!***************************************************!*\
   !*** ./src/Components/PoemTitleDisplay/index.tsx ***!
@@ -31970,8 +32038,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
 /* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(classnames__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var _ArrowIndicators__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../ArrowIndicators */ "./src/Components/ArrowIndicators/index.tsx");
-/* harmony import */ var _styles_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./styles.css */ "./src/Components/PoemView/styles.css");
-/* harmony import */ var _styles_css__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_styles_css__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _PoemScroller__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../PoemScroller */ "./src/Components/PoemScroller/index.tsx");
+/* harmony import */ var _styles_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./styles.css */ "./src/Components/PoemView/styles.css");
+/* harmony import */ var _styles_css__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_styles_css__WEBPACK_IMPORTED_MODULE_6__);
+
 
 
 
@@ -31984,11 +32054,26 @@ function PoemView(props) {
   });
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_spring__WEBPACK_IMPORTED_MODULE_2__["animated"].div, {
     style: spring,
-    className: classnames__WEBPACK_IMPORTED_MODULE_3___default()(_constants__WEBPACK_IMPORTED_MODULE_1__["default"].GLOBAL_CLASSNAMES.OVERLAY, _styles_css__WEBPACK_IMPORTED_MODULE_5___default.a.poem_view)
+    className: classnames__WEBPACK_IMPORTED_MODULE_3___default()(_constants__WEBPACK_IMPORTED_MODULE_1__["default"].GLOBAL_CLASSNAMES.OVERLAY, _styles_css__WEBPACK_IMPORTED_MODULE_6___default.a.poem_view)
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: classnames__WEBPACK_IMPORTED_MODULE_3___default()(_styles_css__WEBPACK_IMPORTED_MODULE_5___default.a.poemViewInner, _constants__WEBPACK_IMPORTED_MODULE_1__["default"].GLOBAL_CLASSNAMES.COVER)
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: _styles_css__WEBPACK_IMPORTED_MODULE_5___default.a.header
+    className: classnames__WEBPACK_IMPORTED_MODULE_3___default()(_styles_css__WEBPACK_IMPORTED_MODULE_6___default.a.poemViewInner, _constants__WEBPACK_IMPORTED_MODULE_1__["default"].GLOBAL_CLASSNAMES.COVER)
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(PoemViewHeader, {
+    poem: props.poem,
+    onReturnToScroller: props.onReturnToScroller
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _styles_css__WEBPACK_IMPORTED_MODULE_6___default.a.poem
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_PoemScroller__WEBPACK_IMPORTED_MODULE_5__["default"], {
+    poem: props.poem
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    style: {
+      height: "80px"
+    }
+  })));
+}
+
+function PoemViewHeader(props) {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _styles_css__WEBPACK_IMPORTED_MODULE_6___default.a.header
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(ReturnToPoems, {
     onClick: props.onReturnToScroller
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(PoemTitle, {
@@ -31997,35 +32082,28 @@ function PoemView(props) {
     style: {
       marginLeft: "69px"
     }
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: _styles_css__WEBPACK_IMPORTED_MODULE_5___default.a.poem
-  }, props.poem.content.map((line, index) => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, {
-    key: index
-  }, line, " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null))))));
+  }), " ");
 }
 
 function ReturnToPoems(props) {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: _styles_css__WEBPACK_IMPORTED_MODULE_5___default.a.returnContainer,
-    onClick: () => {
-      console.log("ReturnToPoems Pressed");
-      props.onClick();
-    }
+    className: _styles_css__WEBPACK_IMPORTED_MODULE_6___default.a.returnContainer,
+    onClick: props.onClick
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_ArrowIndicators__WEBPACK_IMPORTED_MODULE_4__["ArrowIcon"], {
     direction: _ArrowIndicators__WEBPACK_IMPORTED_MODULE_4__["ArrowIcon"].Directions.LEFT,
     stroke: "#fff"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: _styles_css__WEBPACK_IMPORTED_MODULE_5___default.a.returnLabel
+    className: _styles_css__WEBPACK_IMPORTED_MODULE_6___default.a.returnLabel
   }, "Poems"));
 }
 
 function PoemTitle(props) {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: _styles_css__WEBPACK_IMPORTED_MODULE_5___default.a.titleContainer
+    className: _styles_css__WEBPACK_IMPORTED_MODULE_6___default.a.titleContainer
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: _styles_css__WEBPACK_IMPORTED_MODULE_5___default.a.title
+    className: _styles_css__WEBPACK_IMPORTED_MODULE_6___default.a.title
   }, props.poem.name), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: _styles_css__WEBPACK_IMPORTED_MODULE_5___default.a.note
+    className: _styles_css__WEBPACK_IMPORTED_MODULE_6___default.a.note
   }, props.poem.note));
 }
 
