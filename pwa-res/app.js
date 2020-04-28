@@ -205,10 +205,10 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/dist/cjs.js?!./src/Components/App/css-reset.css":
-/*!******************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-1!./src/Components/App/css-reset.css ***!
-  \******************************************************************************************/
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/Components/App/css-reset.css":
+/*!**************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src??ref--5-2!./src/Components/App/css-reset.css ***!
+  \**************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -216,17 +216,17 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, "/* http://meyerweb.com/eric/tools/css/reset/ \r\n   v2.0 | 20110126\r\n   License: none (public domain)\r\n*/\r\n\r\nhtml, body, div, span, applet, object, iframe,\r\nh1, h2, h3, h4, h5, h6, p, blockquote, pre,\r\na, abbr, acronym, address, big, cite, code,\r\ndel, dfn, em, img, ins, kbd, q, s, samp,\r\nsmall, strike, strong, sub, sup, tt, var,\r\nb, u, i, center,\r\ndl, dt, dd, ol, ul, li,\r\nfieldset, form, label, legend,\r\ntable, caption, tbody, tfoot, thead, tr, th, td,\r\narticle, aside, canvas, details, embed, \r\nfigure, figcaption, footer, header, hgroup, \r\nmenu, nav, output, ruby, section, summary,\r\ntime, mark, audio, video {\r\n\tmargin: 0;\r\n\tpadding: 0;\r\n\tborder: 0;\r\n\tfont-size: 100%;\r\n\tfont: inherit;\r\n\tvertical-align: baseline;\r\n}\r\n/* HTML5 display-role reset for older browsers */\r\narticle, aside, details, figcaption, figure, \r\nfooter, header, hgroup, menu, nav, section {\r\n\tdisplay: block;\r\n}\r\nbody {\r\n\tline-height: 1;\r\n}\r\nol, ul {\r\n\tlist-style: none;\r\n}\r\nblockquote, q {\r\n\tquotes: none;\r\n}\r\nblockquote:before, blockquote:after,\r\nq:before, q:after {\r\n\tcontent: '';\r\n\tcontent: none;\r\n}\r\ntable {\r\n\tborder-collapse: collapse;\r\n\tborder-spacing: 0;\r\n}", ""]);
+exports.push([module.i, "a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:\"\";content:none}table{border-collapse:collapse;border-spacing:0}", ""]);
 // Exports
 module.exports = exports;
 
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/dist/cjs.js?!./src/Components/App/global-styles.css":
-/*!**********************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-1!./src/Components/App/global-styles.css ***!
-  \**********************************************************************************************/
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/Components/App/global-styles.css":
+/*!******************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src??ref--5-2!./src/Components/App/global-styles.css ***!
+  \******************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -234,17 +234,17 @@ module.exports = exports;
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, ".cover {\r\n\t\twidth: 100%;\r\n\t\theight: 100%;\r\n}\r\n\r\n.overlay {\r\n\tposition:absolute;\r\n    top:0;\r\n    left:0;\r\n    right:0;\r\n    bottom:0;\r\n}", ""]);
+exports.push([module.i, ".cover{width:100%;height:100%}.overlay{position:absolute;top:0;left:0;right:0;bottom:0}", ""]);
 // Exports
 module.exports = exports;
 
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/dist/cjs.js?!./src/Components/App/styles.css":
-/*!***************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-1!./src/Components/App/styles.css ***!
-  \***************************************************************************************/
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/Components/App/styles.css":
+/*!***********************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src??ref--5-2!./src/Components/App/styles.css ***!
+  \***********************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -252,7 +252,7 @@ module.exports = exports;
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, ".app_174HI {\r\n\tcolor: white;\r\n}", ""]);
+exports.push([module.i, ".app_174HI{color:#fff;touch-action:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;-webkit-user-drag:none;-webkit-tap-highlight-color:rgba(0,0,0,0);-ms-overflow-style:none}", ""]);
 // Exports
 exports.locals = {
 	"app": "app_174HI"
@@ -262,10 +262,10 @@ module.exports = exports;
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/dist/cjs.js?!./src/Components/ArrowIndicators/styles.css":
-/*!***************************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-1!./src/Components/ArrowIndicators/styles.css ***!
-  \***************************************************************************************************/
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/Components/ArrowIndicators/styles.css":
+/*!***********************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src??ref--5-2!./src/Components/ArrowIndicators/styles.css ***!
+  \***********************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -273,7 +273,7 @@ module.exports = exports;
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, ".navigation_3rOw8 {\r\n\tdisplay: flex;\r\n    flex-direction: column;\r\n\tjustify-content: space-between;\r\n\tz-index: 10;\r\n}\r\n\r\n.arrow_indicator_39qUH {\r\n\tdisplay: flex;\r\n    flex-direction: column;\r\n    justify-content: center;\r\n    align-items: center;\r\n    margin: 15px;\r\n}\r\n\r\n.text_2bC4Z {\r\n    font: 400 10px/14px acumin-pro;\r\n    letter-spacing: 1px;\r\n    color: #FFFFFF7D;\r\n\ttext-transform: uppercase;\r\n\tpadding: 6px;\r\n}\r\n\r\n.icon_wrapper_25Ppa {\r\n    line-height: 0;\r\n}", ""]);
+exports.push([module.i, ".navigation_3rOw8{justify-content:space-between;z-index:10}.arrow_indicator_39qUH,.navigation_3rOw8{display:flex;flex-direction:column}.arrow_indicator_39qUH{justify-content:center;align-items:center;margin:15px}.text_2bC4Z{font:400 10px/14px acumin-pro;letter-spacing:1px;color:hsla(0,0%,100%,.4902);text-transform:uppercase;padding:6px}.icon_wrapper_25Ppa{line-height:0}", ""]);
 // Exports
 exports.locals = {
 	"navigation": "navigation_3rOw8",
@@ -286,10 +286,10 @@ module.exports = exports;
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/dist/cjs.js?!./src/Components/DarkeningOverlays/styles.css":
-/*!*****************************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-1!./src/Components/DarkeningOverlays/styles.css ***!
-  \*****************************************************************************************************/
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/Components/DarkeningOverlays/styles.css":
+/*!*************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src??ref--5-2!./src/Components/DarkeningOverlays/styles.css ***!
+  \*************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -297,7 +297,7 @@ module.exports = exports;
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, ".gradient_overlay_9DHtn {\r\n\tdisplay: flex;\r\n    justify-content: center;\r\n}\r\n\r\n.upper_iCzI9 {\r\n    background: linear-gradient(0deg, rgba(255,255,255,0) 0%, rgb(0, 0, 0, 0.5) 100%);\r\n\theight: 130px;\r\n\talign-items: flex-start;\r\n}\r\n\r\n.lower_1CQGy {\r\n\tbackground: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(0, 0, 0, 0.5) 100%);\r\n\theight: 130px;\r\n\talign-items: flex-end;\r\n}", ""]);
+exports.push([module.i, ".gradient_overlay_9DHtn{display:flex;justify-content:center}.upper_iCzI9{background:linear-gradient(0deg,hsla(0,0%,100%,0),rgba(0,0,0,.5));height:130px;align-items:flex-start}.lower_1CQGy{background:linear-gradient(180deg,hsla(0,0%,100%,0),rgba(0,0,0,.5));height:130px;align-items:flex-end}", ""]);
 // Exports
 exports.locals = {
 	"gradient_overlay": "gradient_overlay_9DHtn",
@@ -309,10 +309,10 @@ module.exports = exports;
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/dist/cjs.js?!./src/Components/HomePageScroller/styles.css":
-/*!****************************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-1!./src/Components/HomePageScroller/styles.css ***!
-  \****************************************************************************************************/
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/Components/HomePageScroller/styles.css":
+/*!************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src??ref--5-2!./src/Components/HomePageScroller/styles.css ***!
+  \************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -320,7 +320,7 @@ module.exports = exports;
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, ".scroller_3Uctx {\r\n\tdisplay: flex;\r\n    height: 100vh;\r\n    overflow-y: scroll;\r\n    flex-direction: column;\r\n    scroll-snap-type: y mandatory;\r\n    scroll-behavior: smooth;\r\n    -ms-overflow-style: none;\r\n}\r\n\r\n.scroller_3Uctx::-webkit-scrollbar {\r\n    display: none;\r\n}", ""]);
+exports.push([module.i, ".scroller_3Uctx{display:flex;height:100vh;overflow-y:scroll;flex-direction:column;-ms-scroll-snap-type:y mandatory;scroll-snap-type:y mandatory;scroll-behavior:smooth;-ms-overflow-style:none}.scroller_3Uctx::-webkit-scrollbar{display:none}", ""]);
 // Exports
 exports.locals = {
 	"scroller": "scroller_3Uctx"
@@ -330,10 +330,10 @@ module.exports = exports;
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/dist/cjs.js?!./src/Components/PoemCard/styles.css":
-/*!********************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-1!./src/Components/PoemCard/styles.css ***!
-  \********************************************************************************************/
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/Components/PoemCard/styles.css":
+/*!****************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src??ref--5-2!./src/Components/PoemCard/styles.css ***!
+  \****************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -341,7 +341,7 @@ module.exports = exports;
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, ".poem_card_container_2ADgB {\r\n\twidth: 100vw;\r\n\theight: 100vh;\r\n\tbackground-size: cover;\r\n\tbackground-position: center;\r\n\tscroll-snap-align: start;\r\n}\r\n\r\n.poem_card_1XcYE {\r\n\twidth: 100vw;\r\n\theight: 100vh;\r\n\tdisplay: flex;\r\n    flex-direction: column;\r\n\tjustify-content: space-between;\r\n\toverflow: hidden;\r\n}\r\n\r\n.hitbox_2_EvA {\r\n\theight: 100%;\r\n    display: flex;\r\n    justify-content: flex-start;\r\n    align-items: center;\r\n}", ""]);
+exports.push([module.i, ".poem_card_container_2ADgB{width:100vw;height:100vh;background-size:cover;background-position:50%;scroll-snap-align:start}.poem_card_1XcYE{width:100vw;height:100vh;display:flex;flex-direction:column;justify-content:space-between;overflow:hidden}.hitbox_2_EvA{height:100%;display:flex;justify-content:flex-start;align-items:center}", ""]);
 // Exports
 exports.locals = {
 	"poem_card_container": "poem_card_container_2ADgB",
@@ -353,10 +353,10 @@ module.exports = exports;
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/dist/cjs.js?!./src/Components/PoemScroller/styles.css":
-/*!************************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-1!./src/Components/PoemScroller/styles.css ***!
-  \************************************************************************************************/
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/Components/PoemScroller/styles.css":
+/*!********************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src??ref--5-2!./src/Components/PoemScroller/styles.css ***!
+  \********************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -364,21 +364,21 @@ module.exports = exports;
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, ".poem_scroller_tlrRF {\r\n\theight: 175px;\r\n\twidth: 100%;\r\n\toverflow: scroll;\r\n\tscroll-snap-type: y mandatory;\r\n\ttext-shadow: 0px 0px 6px #000000E0;\r\n\tfont-family: acumin-pro;\r\n\tfont-weight: bold;\r\n\tfont-size: 24px;\r\n\tline-height: 0px;\r\n}\r\n\r\n.line_3Hc36 {\r\n    padding-top: 6px;\r\n    scroll-snap-align: start;\r\n    margin-bottom: 28px;\r\n}", ""]);
+exports.push([module.i, ".poem_scroller_tlrRF{width:100%;overflow:hidden;text-shadow:0 0 6px rgba(0,0,0,.87843);font-family:acumin-pro;font-weight:500;font-size:16px}.content_1M49l{padding-right:15px;white-space:pre-wrap;white-space:-moz-pre-wrap;white-space:-pre-wrap;white-space:-o-pre-wrap;word-wrap:break-word}", ""]);
 // Exports
 exports.locals = {
 	"poem_scroller": "poem_scroller_tlrRF",
-	"line": "line_3Hc36"
+	"content": "content_1M49l"
 };
 module.exports = exports;
 
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/dist/cjs.js?!./src/Components/PoemTitleDisplay/styles.css":
-/*!****************************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-1!./src/Components/PoemTitleDisplay/styles.css ***!
-  \****************************************************************************************************/
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/Components/PoemTitleDisplay/styles.css":
+/*!************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src??ref--5-2!./src/Components/PoemTitleDisplay/styles.css ***!
+  \************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -386,7 +386,7 @@ module.exports = exports;
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, ".title_display_1EhnT {\r\n\tdisplay: flex;\r\n\tflex-direction: column;\r\n\ttext-align: left;\r\n\tcolor: white;\r\n\ttext-transform: uppercase;\r\n\tmargin-left: 25px;\r\n\tjustify-content: center;\r\n\tz-index: 10;\r\n}\r\n\r\n.title_3kiUT {\r\n\tfont: bold 43px/41px baskerville-display-pt;\r\n\tletter-spacing: 0px;\r\n}\r\n\r\n.subtext_2KnX5 {\r\n\tfont: bold 13px/13px acumin-pro;\r\n\tletter-spacing: 0px;\r\n\tmargin: 6px 0px;\r\n}\r\n\r\n.btn_container_1zMDa {\r\n\tdisplay: flex;\r\n    justify-content: flex-start;\r\n    align-items: center;\r\n    justify-items: center;\r\n}\r\n\r\n.btn_decor_32ALQ {\r\n    height: 13px;\r\n    width: 3px;\r\n    background-color: white;\r\n    margin-right: 5px;\r\n}", ""]);
+exports.push([module.i, ".title_display_1EhnT{display:flex;flex-direction:column;text-align:left;color:#fff;text-transform:uppercase;margin-left:25px;justify-content:center;z-index:10}.title_3kiUT{font:700 43px/41px baskerville-display-pt}.subtext_2KnX5,.title_3kiUT{letter-spacing:0}.subtext_2KnX5{font:700 13px/13px acumin-pro;margin:6px 0}.btn_container_1zMDa{display:flex;justify-content:flex-start;align-items:center;justify-items:center}.btn_decor_32ALQ{height:13px;width:3px;background-color:#fff;margin-right:5px}", ""]);
 // Exports
 exports.locals = {
 	"title_display": "title_display_1EhnT",
@@ -400,10 +400,10 @@ module.exports = exports;
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/dist/cjs.js?!./src/Components/PoemView/styles.css":
-/*!********************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-1!./src/Components/PoemView/styles.css ***!
-  \********************************************************************************************/
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/Components/PoemView/styles.css":
+/*!****************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src??ref--5-2!./src/Components/PoemView/styles.css ***!
+  \****************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -411,7 +411,7 @@ module.exports = exports;
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, ".poemViewInner_pT9hg {\r\n\tpadding: 15px;\r\n\tdisplay: flex;\r\n    flex-direction: column;\r\n    justify-content: space-between;\r\n}\r\n\r\n.returnContainer_HMvkZ { \r\n\tdisplay: flex;\r\n    align-items: center;\r\n\theight: 12px;\r\n\tpadding: 3px 0px;\r\n}\r\n\r\n.returnLabel_OVg9d {\r\n\tfont: 400 10px/10px acumin-pro;\r\n\tcolor: white;\r\n\ttext-transform: uppercase;\r\n\tmargin-left: 10px;\r\n}\r\n\r\n.header_2ttzB {\r\n\tdisplay: flex;\r\n\tflex-direction: row;\r\n\tjustify-content: space-between;\r\n\talign-items: center;\r\n}\r\n\r\n.titleContainer_1pVEm {\r\n\tdisplay: flex;\r\n\tflex-direction: column;\r\n\talign-items: center;\r\n}\r\n\r\n.title_2htF2 {\r\n\tfont: bold 14px/18px baskerville-display-pt;\r\n\tcolor: white;\r\n\ttext-transform: uppercase\r\n}\r\n\r\n.note_1ZNkG {\r\n\tfont-family: acumin-pro;\r\n\tfont-size: 10px;\r\n\tfont-weight: 500;\r\n\tfont-style: italic;\r\n\tcolor: rgba(255,255,255,0.72)\r\n}\r\n\r\n.poem_1ffUN {\r\n\ttext-align: center;\r\n    padding-right: 15px;\r\n    font-family: acumin-pro;\r\n\theight: 100%;\r\n\tdisplay: flex;\r\n\tjustify-content: center;\r\n\talign-items: center;\r\n}", ""]);
+exports.push([module.i, ".poemViewInner_pT9hg{padding:15px;display:flex;flex-direction:column;justify-content:space-between}.returnContainer_HMvkZ{display:flex;align-items:center;height:12px;padding:3px 0}.returnLabel_OVg9d{font:400 10px/10px acumin-pro;color:#fff;text-transform:uppercase;margin-left:10px}.header_2ttzB{flex-direction:row;justify-content:space-between}.header_2ttzB,.titleContainer_1pVEm{display:flex;align-items:center}.titleContainer_1pVEm{flex-direction:column}.title_2htF2{font:700 14px/18px baskerville-display-pt;color:#fff;text-transform:uppercase}.note_1ZNkG{font-family:acumin-pro;font-size:10px;font-weight:500;font-style:italic;color:hsla(0,0%,100%,.72)}.poem_1ffUN{text-align:center;padding-right:15px;font-family:acumin-pro;height:100%;justify-content:center}.footer_1qQB4,.poem_1ffUN{display:flex;align-items:center}.footer_1qQB4{height:80px;font:400 10px/14px acumin-pro;letter-spacing:1px;color:hsla(0,0%,100%,.4902);text-transform:uppercase;flex-direction:column;justify-content:flex-start;padding-right:30px}", ""]);
 // Exports
 exports.locals = {
 	"poemViewInner": "poemViewInner_pT9hg",
@@ -421,7 +421,8 @@ exports.locals = {
 	"titleContainer": "titleContainer_1pVEm",
 	"title": "title_2htF2",
 	"note": "note_1ZNkG",
-	"poem": "poem_1ffUN"
+	"poem": "poem_1ffUN",
+	"footer": "footer_1qQB4"
 };
 module.exports = exports;
 
@@ -31339,7 +31340,7 @@ module.exports = function (list, options) {
 /***/ (function(module, exports, __webpack_require__) {
 
 var api = __webpack_require__(/*! ../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
-            var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--5-1!./css-reset.css */ "./node_modules/css-loader/dist/cjs.js?!./src/Components/App/css-reset.css");
+            var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--5-1!../../../node_modules/postcss-loader/src??ref--5-2!./css-reset.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/Components/App/css-reset.css");
 
             content = content.__esModule ? content.default : content;
 
@@ -31370,7 +31371,7 @@ module.exports = exported;
 /***/ (function(module, exports, __webpack_require__) {
 
 var api = __webpack_require__(/*! ../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
-            var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--5-1!./global-styles.css */ "./node_modules/css-loader/dist/cjs.js?!./src/Components/App/global-styles.css");
+            var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--5-1!../../../node_modules/postcss-loader/src??ref--5-2!./global-styles.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/Components/App/global-styles.css");
 
             content = content.__esModule ? content.default : content;
 
@@ -31421,12 +31422,19 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-function App() {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: _styles_css__WEBPACK_IMPORTED_MODULE_1___default.a.app
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Hooks_Contexts__WEBPACK_IMPORTED_MODULE_4__["PoemsContext"].Provider, {
-    value: _data_poems__WEBPACK_IMPORTED_MODULE_3__["default"]
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_HomePageScroller__WEBPACK_IMPORTED_MODULE_2__["default"], null)));
+class App extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+  componentDidCatch(error, errorInfo) {
+    console.error(error, errorInfo);
+  }
+
+  render() {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: _styles_css__WEBPACK_IMPORTED_MODULE_1___default.a.app
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Hooks_Contexts__WEBPACK_IMPORTED_MODULE_4__["PoemsContext"].Provider, {
+      value: _data_poems__WEBPACK_IMPORTED_MODULE_3__["default"]
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_HomePageScroller__WEBPACK_IMPORTED_MODULE_2__["default"], null)));
+  }
+
 }
 
 /***/ }),
@@ -31439,7 +31447,7 @@ function App() {
 /***/ (function(module, exports, __webpack_require__) {
 
 var api = __webpack_require__(/*! ../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
-            var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--5-1!./styles.css */ "./node_modules/css-loader/dist/cjs.js?!./src/Components/App/styles.css");
+            var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--5-1!../../../node_modules/postcss-loader/src??ref--5-2!./styles.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/Components/App/styles.css");
 
             content = content.__esModule ? content.default : content;
 
@@ -31543,7 +31551,7 @@ ArrowIcon.Directions = ArrowDirections;
 /***/ (function(module, exports, __webpack_require__) {
 
 var api = __webpack_require__(/*! ../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
-            var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--5-1!./styles.css */ "./node_modules/css-loader/dist/cjs.js?!./src/Components/ArrowIndicators/styles.css");
+            var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--5-1!../../../node_modules/postcss-loader/src??ref--5-2!./styles.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/Components/ArrowIndicators/styles.css");
 
             content = content.__esModule ? content.default : content;
 
@@ -31628,7 +31636,7 @@ function LowerOverlay(props) {
 /***/ (function(module, exports, __webpack_require__) {
 
 var api = __webpack_require__(/*! ../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
-            var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--5-1!./styles.css */ "./node_modules/css-loader/dist/cjs.js?!./src/Components/DarkeningOverlays/styles.css");
+            var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--5-1!../../../node_modules/postcss-loader/src??ref--5-2!./styles.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/Components/DarkeningOverlays/styles.css");
 
             content = content.__esModule ? content.default : content;
 
@@ -31748,7 +31756,7 @@ HomePageScroller.displayName = "HomeScroller";
 /***/ (function(module, exports, __webpack_require__) {
 
 var api = __webpack_require__(/*! ../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
-            var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--5-1!./styles.css */ "./node_modules/css-loader/dist/cjs.js?!./src/Components/HomePageScroller/styles.css");
+            var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--5-1!../../../node_modules/postcss-loader/src??ref--5-2!./styles.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/Components/HomePageScroller/styles.css");
 
             content = content.__esModule ? content.default : content;
 
@@ -31866,7 +31874,7 @@ function getPoem(poem, location, poems) {
 /***/ (function(module, exports, __webpack_require__) {
 
 var api = __webpack_require__(/*! ../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
-            var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--5-1!./styles.css */ "./node_modules/css-loader/dist/cjs.js?!./src/Components/PoemCard/styles.css");
+            var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--5-1!../../../node_modules/postcss-loader/src??ref--5-2!./styles.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/Components/PoemCard/styles.css");
 
             content = content.__esModule ? content.default : content;
 
@@ -31908,10 +31916,9 @@ __webpack_require__.r(__webpack_exports__);
 function PoemScroller(props) {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: _styles_css__WEBPACK_IMPORTED_MODULE_1___default.a.poem_scroller
-  }, props.poem.content.map((line, index) => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: _styles_css__WEBPACK_IMPORTED_MODULE_1___default.a.line,
-    key: index
-  }, line)));
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("pre", {
+    className: _styles_css__WEBPACK_IMPORTED_MODULE_1___default.a.content
+  }, " ", props.poem.content.join("\n")));
 }
 
 /***/ }),
@@ -31924,7 +31931,7 @@ function PoemScroller(props) {
 /***/ (function(module, exports, __webpack_require__) {
 
 var api = __webpack_require__(/*! ../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
-            var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--5-1!./styles.css */ "./node_modules/css-loader/dist/cjs.js?!./src/Components/PoemScroller/styles.css");
+            var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--5-1!../../../node_modules/postcss-loader/src??ref--5-2!./styles.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/Components/PoemScroller/styles.css");
 
             content = content.__esModule ? content.default : content;
 
@@ -32009,7 +32016,7 @@ function ReadBtn() {
 /***/ (function(module, exports, __webpack_require__) {
 
 var api = __webpack_require__(/*! ../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
-            var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--5-1!./styles.css */ "./node_modules/css-loader/dist/cjs.js?!./src/Components/PoemTitleDisplay/styles.css");
+            var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--5-1!../../../node_modules/postcss-loader/src??ref--5-2!./styles.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/Components/PoemTitleDisplay/styles.css");
 
             content = content.__esModule ? content.default : content;
 
@@ -32075,10 +32082,8 @@ function PoemView(props) {
     className: _styles_css__WEBPACK_IMPORTED_MODULE_6___default.a.poem
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_PoemScroller__WEBPACK_IMPORTED_MODULE_5__["default"], {
     poem: props.poem
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    style: {
-      height: "80px"
-    }
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(PoemFooter, {
+    poem: props.poem
   })));
 }
 
@@ -32091,7 +32096,7 @@ function PoemViewHeader(props) {
     poem: props.poem
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     style: {
-      marginLeft: "69px"
+      marginLeft: "80px"
     }
   }), " ");
 }
@@ -32118,6 +32123,12 @@ function PoemTitle(props) {
   }, props.poem.note));
 }
 
+function PoemFooter(props) {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: classnames__WEBPACK_IMPORTED_MODULE_3___default()(_styles_css__WEBPACK_IMPORTED_MODULE_6___default.a.footer)
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, props.poem.author), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, props.poem.source.origin, ", ", props.poem.source.year), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, props.poem.source.publisher));
+}
+
 /***/ }),
 
 /***/ "./src/Components/PoemView/styles.css":
@@ -32128,7 +32139,7 @@ function PoemTitle(props) {
 /***/ (function(module, exports, __webpack_require__) {
 
 var api = __webpack_require__(/*! ../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
-            var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--5-1!./styles.css */ "./node_modules/css-loader/dist/cjs.js?!./src/Components/PoemView/styles.css");
+            var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--5-1!../../../node_modules/postcss-loader/src??ref--5-2!./styles.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/Components/PoemView/styles.css");
 
             content = content.__esModule ? content.default : content;
 
@@ -32186,6 +32197,21 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./src/Hooks/log.ts":
+/*!**************************!*\
+  !*** ./src/Hooks/log.ts ***!
+  \**************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Modules_console__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../Modules/console */ "./src/Modules/console.ts");
+
+/* harmony default export */ __webpack_exports__["default"] = (new _Modules_console__WEBPACK_IMPORTED_MODULE_0__["default"]("Hooks", "#4287f5"));
+
+/***/ }),
+
 /***/ "./src/Hooks/usePoems.ts":
 /*!*******************************!*\
   !*** ./src/Hooks/usePoems.ts ***!
@@ -32199,11 +32225,50 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _Contexts__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Contexts */ "./src/Hooks/Contexts.ts");
+/* harmony import */ var _log__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./log */ "./src/Hooks/log.ts");
 
 
+
+const usePoemsConsole = _log__WEBPACK_IMPORTED_MODULE_2__["default"].extend("usePoems");
 function usePoems() {
-  return Object(react__WEBPACK_IMPORTED_MODULE_0__["useContext"])(_Contexts__WEBPACK_IMPORTED_MODULE_1__["PoemsContext"]);
+  const ctx = Object(react__WEBPACK_IMPORTED_MODULE_0__["useContext"])(_Contexts__WEBPACK_IMPORTED_MODULE_1__["PoemsContext"]);
+  usePoemsConsole.log("Call, result: ", ctx);
+  return ctx;
 }
+
+/***/ }),
+
+/***/ "./src/Modules/console.ts":
+/*!********************************!*\
+  !*** ./src/Modules/console.ts ***!
+  \********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+class CustomConsole {
+  constructor(name, color) {
+    this._d = void 0;
+    this.log = void 0;
+    this.warn = void 0;
+    this.error = void 0;
+    this._d = {
+      name,
+      color
+    };
+    this.log = console.log.bind(console, `%c[${this._d.name}]`, `color: ${this._d.color}`);
+    this.warn = console.warn.bind(console, `[${this._d.name}]`);
+    this.error = console.error.bind(console, `[${this._d.name}]`);
+  }
+
+  extend(name) {
+    return new CustomConsole(this._d.name + ":" + name, this._d.color);
+  }
+
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (CustomConsole);
 
 /***/ }),
 
