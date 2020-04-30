@@ -16,14 +16,11 @@ const getConsole = (name, color) => {
 const swConsole = getConsole("ServiceWorker", "#0077b8");
 
 const fileCache = [
-	"img/children-1.jpg",
-	"img/children-2.jpg",
-	"img/children-3.jpg",
-	"img/dollies-1.jpg",
-	"img/dollies-2.jpg",
-	"img/marbles-1.jpg",
-	"img/ocean-1.jpg",
-	"img/teddy-1.jpg",
+	"img/o-children-1.jpg",
+	"img/o-marbles-1.jpg",
+	"img/o-teddys-1.jpg",
+	"img/o-beach-1.jpg",
+	"img/o-dollies-1.jpg",
 	"app.js"
 ].map(file => `/${APP_NAME}/${PREFIX}/${file}`);
 
