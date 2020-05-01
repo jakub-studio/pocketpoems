@@ -119,7 +119,7 @@
 		if ('serviceWorker' in navigator) {
 			window.addEventListener('load', () => {
 				navigator.serviceWorker.register('/pocketpoems/service-worker.js', {
-					scope: "/"
+					scope: "/pocketpoems/"
 				})
 					.then((reg) => {
 						c.log('SW registered', reg);
