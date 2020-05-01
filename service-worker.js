@@ -37,6 +37,23 @@ self.addEventListener("install", event => {
 
 self.addEventListener("fetch", fetchEvent => {
 	fetchEvent.respondWith(
-		fetch(fetchEvent.request)
+		cacheThenNetwork(fetchEvent)
 	);
 });
+
+async function cacheThenNetwork(event) {
+	const cache = await caches.open(CACHE);
+
+	const cachedResponse = await cache.match(event.request);
+
+	if (cachedResponse) {
+		swConsole.log("Serving From Cache: " + event.request.url);
+		return cachedResponse;
+	}
+
+	const networkResponse = await fetch(event.request);
+
+	swConsole.log("Calling network: " + event.request.url);
+
+	return networkResponse;
+}
