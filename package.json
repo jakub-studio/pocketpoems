@@ -1,0 +1,44 @@
+{
+  "name": "poetry-app",
+  "version": "0.1.0",
+  "main": "index.js",
+  "license": "Apache-2.0",
+  "repository": {
+    "url": "https://github.com/jakuski/pocketpoems"
+  },
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "css-scroll-snap-polyfill": "^0.1.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-spring": "^8.0.27",
+    "smoothscroll-polyfill": "^0.4.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/preset-env": "^7.9.6",
+    "@babel/preset-react": "^7.9.4",
+    "@babel/preset-typescript": "^7.9.0",
+    "@types/classnames": "^2.2.10",
+    "@types/hammerjs": "^2.0.36",
+    "@types/node": "^13.13.2",
+    "@types/react": "^16.9.34",
+    "@types/react-dom": "^16.9.6",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^3.5.2",
+    "cssnano": "^4.1.10",
+    "postcss-loader": "^3.0.0",
+    "postcss-preset-env": "^6.7.0",
+    "style-loader": "^1.1.4",
+    "typescript": "^3.8.3",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  },
+  "scripts": {
+    "build": "tsc && webpack --config ./scripts/webpack.config.js",
+    "force-build": "webpack --config ./scripts/webpack.config.js",
+    "devtools": "react-devtools",
+    "compress": "node ./scripts/compress.js"
+  }
+}

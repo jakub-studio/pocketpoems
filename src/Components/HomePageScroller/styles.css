@@ -1,0 +1,14 @@
+.scroller {
+	display: flex;
+    height: 100vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    flex-direction: column;
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+    -ms-overflow-style: none;
+}
+
+.scroller::-webkit-scrollbar {
+    display: none;
+}

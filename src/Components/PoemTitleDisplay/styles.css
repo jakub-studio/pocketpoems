@@ -1,0 +1,35 @@
+.title_display {
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+	color: white;
+	text-transform: uppercase;
+	margin-left: 25px;
+	justify-content: center;
+	z-index: 10;
+}
+
+.title {
+	font: bold 43px/41px baskerville-display-pt;
+	letter-spacing: 0px;
+}
+
+.subtext {
+	font: bold 13px/13px acumin-pro;
+	letter-spacing: 0px;
+	margin: 6px 0px;
+}
+
+.btn_container {
+	display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    justify-items: center;
+}
+
+.btn_decor {
+    height: 13px;
+    width: 3px;
+    background-color: white;
+    margin-right: 5px;
+}

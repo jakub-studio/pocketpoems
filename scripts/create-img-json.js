@@ -1,0 +1,1 @@
+copy(JSON.stringify([128,152,167,180,256,512,192].map(size => ({src: `icons/icon-${size}.png`, sizes: `${size}x${size}`, type: "image/png"}))))

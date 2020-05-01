@@ -1,0 +1,14 @@
+{
+	"compilerOptions": {
+		"lib": [
+			"esnext",
+			"DOM"
+		],
+		"noEmit": true,
+		"target": "esnext",
+		"moduleResolution": "node",
+		"allowSyntheticDefaultImports": true,
+		"jsx": "react",
+		"resolveJsonModule": true
+	}
+}

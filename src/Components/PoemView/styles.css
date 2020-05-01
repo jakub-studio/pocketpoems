@@ -1,0 +1,71 @@
+.poemViewInner {
+	padding: 15px;
+	display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.returnContainer { 
+	display: flex;
+    align-items: center;
+	height: 12px;
+	padding: 3px 0px;
+}
+
+.returnLabel {
+	font: 400 10px/10px acumin-pro;
+	color: white;
+	text-transform: uppercase;
+	margin-left: 10px;
+}
+
+.header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.titleContainer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.title {
+	font: bold 14px/18px baskerville-display-pt;
+	color: white;
+	text-transform: uppercase
+}
+
+.note {
+	font-family: acumin-pro;
+	font-size: 10px;
+	font-weight: 500;
+	font-style: italic;
+	color: rgba(255,255,255,0.72)
+}
+
+.poem {
+	text-align: center;
+    padding-right: 15px;
+    font-family: acumin-pro;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.footer {
+	height: 80px;
+	font: 400 10px/14px acumin-pro;
+    letter-spacing: 1px;
+    color: hsla(0,0%,100%,.4902);
+	text-transform: uppercase;
+	display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+	padding-right: 30px;
+	z-index: 55;
+}

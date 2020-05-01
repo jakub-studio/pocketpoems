@@ -1,0 +1,21 @@
+.content_container {
+    width: 100%;
+    overflow: hidden;
+    text-shadow: 0 0 6px rgba(0,0,0,.87843);
+    font-family: acumin-pro;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.content {
+	padding: 5px 15px 5px 0px;
+	white-space: pre-wrap;
+	white-space: -moz-pre-wrap;
+	white-space: -pre-wrap;
+	white-space: -o-pre-wrap;
+	word-wrap: break-word;
+	max-height: 80vh;
+    overflow-y: auto;
+	overflow-x: hidden;
+	line-height: 18px;
+}

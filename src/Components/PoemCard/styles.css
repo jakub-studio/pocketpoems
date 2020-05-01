@@ -1,0 +1,30 @@
+.poem_card_container {
+	width: 100vw;
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	scroll-snap-align: start;
+}
+
+.poem_card {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+    flex-direction: column;
+	justify-content: space-between;
+	overflow: hidden;
+}
+
+.hitbox {
+	height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.first_card_header {
+	padding: 20px;
+    display: flex;
+    align-items: flex-start;
+    width: 100vw;
+}
